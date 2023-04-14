@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'PoppinsBold';
+    src: url(../fonts/PoppinsBold.ttf);
+}
+@font-face {
+    font-family: 'PoppinsRegular';
+    src: url(../fonts/PoppinsBold.ttf);
+}
+P{
+    font-family: 'PoppinsRegular';
+    font
+}
