@@ -6,7 +6,9 @@
     font-family: 'PoppinsRegular';
     src: url(../fonts/PoppinsBold.ttf);
 }
-P{
+.left-content{
+    font-family: 'PoppinsBold';
+}
+.right-content{
     font-family: 'PoppinsRegular';
-    font
 }
