@@ -221,3 +221,81 @@ h1{
     margin-right: 20px;
     margin-top: 20px;
 }
+/* settings */
+.settings-title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.settings{
+    margin-top: 70px;
+    height: 50%;
+    color: #000000;
+
+}
+.collect-data-setting{
+    width: 400px;
+    height: 75px;
+    border: 1px solid #828282;
+    display: flex;
+    justify-content: space-between;
+}
+.collect-data-setting label{
+    margin-left: 20px;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 20px;
+}
+.collect-data-setting input{
+    background: #FFFFFF;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #4F4F4F;
+    margin-right: 20px;
+    margin-top: 17px;
+}
+.email-change-setting input{
+    margin-top: 30px;
+    width: 400px;
+    height: 75px;
+}
+.email-change-setting input::placeholder{
+    font-family: 'PoppinsRegular';
+    font-size: 18px;
+    line-height: 27px;
+    padding-left: 20px;
+    color:  #000000;
+}
+.password-change-setting input{
+    margin-top: 20px;
+    width: 400px;
+    height: 75px;
+}
+.password-change-setting input::placeholder{
+    font-family: 'PoppinsRegular';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    padding-left: 20px;
+    color:  #000000;
+}
+.save-setting button{
+    margin-top: 40px;
+    width: 150px;
+    height: 75px;
+    background-color: #333333;
+    font-family: 'PoppinsRegular';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    text-align: center;
+}
+.save-setting button:active{
+    background-color: rgb(56, 54, 54);
+}
